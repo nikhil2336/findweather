@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/findweather/static/css/main.383e64ec.css",
+    "main.js": "/findweather/static/js/main.41ddb206.js",
+    "static/js/787.edd59a96.chunk.js": "/findweather/static/js/787.edd59a96.chunk.js",
+    "index.html": "/findweather/index.html",
+    "main.383e64ec.css.map": "/findweather/static/css/main.383e64ec.css.map",
+    "main.41ddb206.js.map": "/findweather/static/js/main.41ddb206.js.map",
+    "787.edd59a96.chunk.js.map": "/findweather/static/js/787.edd59a96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.383e64ec.css",
+    "static/js/main.41ddb206.js"
+  ]
+}
