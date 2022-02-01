@@ -71,7 +71,7 @@ const Tempapp=()=>{
         return `${new Date(t*1000).getHours()}:${new Date(t*1000).getMinutes()}`
 
     };
-    const isday = city.current.is_day;
+    // const isday = city.current.is_day;
 
 
     useEffect( ()=>{
@@ -82,7 +82,7 @@ const Tempapp=()=>{
         }
         fetchApi();
        
-    }, [search])
+    }, [search,city])
 
    
 
@@ -107,7 +107,7 @@ const Tempapp=()=>{
                          <span >|{city.current.condition.text}</span>
                     </div>
                     <WeatherInfoContainer>
-                        <Weatherinfocomponent name={isday? "sunrise":"sunset"} value={getTime(city.location.localtime_epoch)} />
+                        <Weatherinfocomponent name="sunrise" value={getTime(city.location.localtime_epoch)} />
                         <Weatherinfocomponent name="humidity" value={city.current.humidity}/>
                         <Weatherinfocomponent name="wind" value={city.current.wind_kph}/>
                         <Weatherinfocomponent name="pressure" value={city.current.pressure_in}/>
